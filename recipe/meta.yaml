@@ -1,5 +1,5 @@
 {% set name = "full-fred" %}
-{% set version = "0.0.9a3" %}
+{% set version = "0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/full_fred-{{ version }}.tar.gz
-  sha256: f6fd4973b65dbf9f1494378a4302ddd365023601ab3e94fd5eef265f286f8951
+  sha256: aac80b6fc8753e8676efcffba1ec0bde5ed9f673ea50abc0086f341e62269c61
 
 build:
   noarch: python
